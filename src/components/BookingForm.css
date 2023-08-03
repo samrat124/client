@@ -1,0 +1,78 @@
+.App {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .booking-form {
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .booking-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking-form select,
+  .booking-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background-color: #0056b3;
+  }
+  /* ... Existing CSS styles ... */
+
+.booking-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking-form select,
+  .booking-form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* New styles for time slot dropdown */
+  .booking-form select[name="slot"] {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  /* ... Other existing CSS styles ... */
+  
